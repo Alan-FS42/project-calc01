@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+:root {
+    --color-01: rgb(0, 5, 38);
+    --color-02:white;
+    --color-03: rgb(51, 255, 0);
+    --color-04: aqua;
+    --color-05: blueviolet;
+    --color-06: deeppink;
+}
+h1 {
+    color: var(--color-05);
+    margin: auto;
+    padding: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 255, 255, 0.571);  
+    font-size: 2.5em;
+    
+}
+.container{
+    background-color: var(--color-05);
+    max-width: 430px;
+    margin: auto;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px aqua;
+}
+body {
+    background-color: var(--color-01);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.calc {
+    width: 400px;
+    
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    border-radius: 8px;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    font-size: 1em;
+    border: none;
+    background-color: var(--color-01);
+    color: var(--color-04);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px aqua;
+}
+
+.btn:hover {
+    background-color: var(--color-03);
+    color: black;
+}
+
+.btn-eq {
+    background-color: rgb(239, 0, 148);
+}
